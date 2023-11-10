@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(235, 112, 208);
+    background-color: #5A0536;
 }
 
 .container {
@@ -27,7 +27,8 @@ section {
 }
 
 header {
-    background-image:url("../images/marilyn.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/marilyn.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: aqua;
@@ -73,10 +74,7 @@ header a {
 
 footer {
     color: #8472ca;
-    background-image: linear-gradient(
-        rgba(39, 32, 68, 0.9),
-        rgba(39, 32, 68, 0.9)
-      ),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/lucy2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +117,7 @@ footer a {
 }
 
 main {
-    background-color: #8472ca;
+    background-color: #D7C2B1;
 }
 
 main h2 {
@@ -128,15 +126,16 @@ main h2 {
     line-height: 1.5;
     margin: 0;
     letter-spacing: 5px;
-    color: aqua;
+    color: #830000;
     opacity: 0.3;
     text-transform: uppercase;
+    text-align: center;
 }
 main h3 {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.5;
-    color: aqua;
+    color: #830000;
     margin: 0;
 }
 main p {
@@ -144,7 +143,7 @@ main p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: aqua;
+    color: #830000;
     opacity: 0.7;
 }
 @media (max-width: 960px){
