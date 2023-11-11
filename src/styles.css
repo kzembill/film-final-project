@@ -21,7 +21,8 @@ body {
 }
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #BE3A26;
+    background-color: #5A0536;
+    padding: 30px 30px 
 }
 
 .grid-2-columns {
@@ -53,7 +54,7 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     padding: 16px;
-    background-color: #462cb3;
+    background-color: #DA6B96;
     text-decoration: none;
    
   }
