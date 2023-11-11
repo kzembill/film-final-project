@@ -157,9 +157,9 @@ main p {
     opacity: 0.7;
 }
 footer {
-    color: #8472ca;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lucy2.jpg");
+    color: rgb(255, 39, 75);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/lucille-ball-pop-art-stars-on-art.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
