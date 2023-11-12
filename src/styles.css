@@ -22,7 +22,7 @@ body {
 .grid-3-columns {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #5A0536;
-    padding: 30px 30px 
+    padding: 30px 30px;
 }
 
 .grid-2-columns {
@@ -46,10 +46,9 @@ body {
     width: 100%;
     aspect-ratio: 1/1;
 }
-.card-header img {
-    display: none;
+.card-header{
+    display: grid;
 }
-
 .card-body {
     padding: 30px;
 }
